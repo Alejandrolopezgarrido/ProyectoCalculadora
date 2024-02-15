@@ -14,6 +14,7 @@ public class pruebaCalculadora{
                     System.out.println("2. Resta");
 
                     System.out.println("3. dividir");
+                    
 
                     System.out.println("0. Salir");
                     opcion = scanner.nextInt();

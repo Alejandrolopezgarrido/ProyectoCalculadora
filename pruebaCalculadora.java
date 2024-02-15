@@ -7,7 +7,7 @@ public class pruebaCalculadora{
                 do {
 
                     System.out.println("Seleccione una operacion:");
-                    System.out.println("1. multiplicar");
+                    System.out.println("1. dividir");
                     System.out.println("0. Salir");
                     opcion = scanner.nextInt();
                     System.out.print("Dime el primer numero: ");
@@ -21,8 +21,8 @@ public class pruebaCalculadora{
 
                     switch (opcion) {
                         case 1:
-                            resultado = cal.multiplicar();
-                            System.out.println("El resultado de la multiplicar es: " + resultado);
+                            resultado = cal.dividir();
+                            System.out.println("El resultado de la dividir es: " + resultado);
                             break;
 
                         default:

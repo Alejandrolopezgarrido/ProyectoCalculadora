@@ -8,6 +8,7 @@ public class Calculadora {
     }
 
 
+
     public int resta() {
         int num = num1 - num2;
         return num;
@@ -15,6 +16,12 @@ public class Calculadora {
 
     public int suma() {
         int num = num1 + num2;
+        return num; 
+    }
+
+    public int multiplicar() {
+        int num = num1 * num2;
+
         return num;
     }
 

@@ -8,13 +8,13 @@ public class pruebaCalculadora{
 
                     System.out.println("Seleccione una operacion:");
 
-
                     System.out.println("1. Suma");
 
                     System.out.println("2. Resta");
 
                     System.out.println("3. dividir");
-                    
+
+                    System.out.println("4. multiplicar");
 
                     System.out.println("0. Salir");
                     opcion = scanner.nextInt();
@@ -39,6 +39,11 @@ public class pruebaCalculadora{
                         case 3: 
                             resultado = cal.dividir();
                             System.out.println("El resultado de la dividir es: " + resultado);
+                            break;
+
+                        case 4: 
+                            resultado = cal.multiplicar();
+                            System.out.println("El resultado de la multiplicar es: " + resultado);
                             break;
 
                         default:

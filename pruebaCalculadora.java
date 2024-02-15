@@ -7,7 +7,11 @@ public class pruebaCalculadora{
                 do {
 
                     System.out.println("Seleccione una operacion:");
+
                     System.out.println("1. Suma");
+
+                    System.out.println("2. Resta");
+
                     System.out.println("0. Salir");
                     opcion = scanner.nextInt();
                     System.out.print("Dime el primer numero: ");
@@ -23,6 +27,10 @@ public class pruebaCalculadora{
                         case 1:
                             resultado = cal.suma();
                             System.out.println("El resultado de la suma es: " + resultado);
+                            break;
+                        case 2:
+                            resultado = cal.resta();
+                            System.out.println("El resultado de la resta es: " + resultado);
                             break;
 
                         default:

@@ -7,9 +7,16 @@ public class Calculadora {
         this.num2 = num2;
     }
 
+    public int resta() {
+        int num = num1 - num2;
+        return num;
+    }
+
     public int suma() {
         int num = num1 + num2;
         return num;
     }
+
+    
         
 }

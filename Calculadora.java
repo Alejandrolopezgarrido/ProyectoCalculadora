@@ -7,8 +7,8 @@ public class Calculadora {
         this.num2 = num2;
     }
 
-    public int suma() {
-        int num = num1 + num2;
+    public int multiplicar() {
+        int num = num1 * num2;
         return num;
     }
         

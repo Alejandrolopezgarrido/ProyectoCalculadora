@@ -7,6 +7,7 @@ public class Calculadora {
         this.num2 = num2;
     }
 
+
     public int resta() {
         int num = num1 - num2;
         return num;
@@ -17,6 +18,14 @@ public class Calculadora {
         return num;
     }
 
+    public int dividir() {
+        int num = num1 / num2;
+
+        return num;
+    }
+
     
+
+
         
 }
